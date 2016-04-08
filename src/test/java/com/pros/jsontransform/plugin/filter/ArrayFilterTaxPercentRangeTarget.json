@@ -1,0 +1,21 @@
+{
+  "lowTaxProducts" : [ {
+    "name" : "fiat",
+    "price" : 8000,
+    "tax" : 1500
+  }, {
+    "name" : "renault",
+    "price" : 9000,
+    "tax" : 1400
+  } ],
+  "highTaxProducts" : [ {
+    "name" : "bmw",
+    "price" : 11000,
+    "tax" : 2200
+  } ],
+  "midTaxProducts" : [ {
+    "name" : "fiat",
+    "price" : 8000,
+    "tax" : 1500
+  } ]
+}

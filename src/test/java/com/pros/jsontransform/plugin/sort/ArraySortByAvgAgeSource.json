@@ -1,0 +1,8 @@
+{
+    "families":
+    [
+        [{"name":"Smith"}, {"chris":50}, {"hanna":52}, {"paul":20}],
+        [{"name":"Willis"}, {"ted":33}, {"maria":30}, {"laura":4}, {"joe":2}],
+        [{"name":"Abercrombie"}, {"louis":77}, {"sheila":72}, {"chris":48}]
+    ]
+}

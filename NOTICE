@@ -1,0 +1,9 @@
+json-transform-plugin
+Examples plugins for the json-transform library.
+Copyright (c) 2016 PROS, Inc.
+
+This product uses Jackson developed by FasterXML.
+https://github.com/FasterXML/jackson
+
+This product uses json-transform developed by PROS.
+https://github.com/prospricing/json-transform

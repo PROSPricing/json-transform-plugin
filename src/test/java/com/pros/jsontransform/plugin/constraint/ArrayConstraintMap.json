@@ -1,0 +1,20 @@
+{
+    "transformed-products":
+    {
+        "$path":"products",
+        "$structure":
+        [
+            {
+                "$value":"."
+            }
+        ],
+        "$comment":
+        [
+            {"$size":{"$less-then":10}},
+            {"$sum":{"$lhs":"price", "$op":"less-than", "$rhs":10}}
+        ],
+        "$include":
+        [
+        ]
+    }
+}

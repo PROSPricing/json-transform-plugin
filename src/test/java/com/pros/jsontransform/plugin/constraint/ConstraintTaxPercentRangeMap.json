@@ -1,0 +1,21 @@
+{
+    "transformed-products":
+    {
+        "$path":"products",
+        "$structure":
+        [
+            {
+                "$value":"name",
+                "$constraints":
+                [
+                    {
+                        "$com.pros.jsontransform.plugin.constraint.ConstraintTaxPercentRange":
+                        {
+                            "$greater-than":15, "$less-than":25
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

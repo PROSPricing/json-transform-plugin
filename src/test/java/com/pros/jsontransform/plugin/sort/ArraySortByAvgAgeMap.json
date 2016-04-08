@@ -1,0 +1,21 @@
+{
+    "sorted-families-asc":
+    {
+        "$path":"families",
+        "$structure":
+        [
+            {"$value":".|0"}
+        ],
+        "$sort":{"$com.pros.jsontransform.plugin.sort.ArraySortByAvgAge":{"$direction":"ascending"}}
+    },
+    
+    "sorted-families-desc":
+    {
+        "$path":"families",
+        "$structure":
+        [
+            {"$value":".|0"}
+        ],
+        "$sort":{"$com.pros.jsontransform.plugin.sort.ArraySortByAvgAge":{"$direction":"descending"}}
+    }
+}

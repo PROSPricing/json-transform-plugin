@@ -1,0 +1,24 @@
+{
+    "fullName":
+    {
+        "$value":"person|firstName",
+        "$expression":
+        [
+            {"$append":{"$what":" "}},
+            {"$append":{"$what":{"$value":"person|lastName"}}}
+        ]
+    },
+
+    "avgChildrenAge":
+    {
+        "$expression":
+        [
+            {
+                "$com.pros.jsontransform.plugin.expression.FunctionAvgChildrenAge":
+                {
+                    "$value":"person|children"
+                }
+            }
+        ]
+    }
+}

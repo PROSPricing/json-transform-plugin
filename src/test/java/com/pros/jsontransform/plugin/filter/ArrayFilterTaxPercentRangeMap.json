@@ -1,0 +1,61 @@
+{
+    "lowTaxProducts":
+    {
+        "$path":"products",
+        "$structure":
+        [
+            {
+                "$value":"."
+            }
+        ],
+        "$include":
+        [
+            {
+                "$com.pros.jsontransform.plugin.filter.ArrayFilterTaxPercentRange":
+                {
+                    "$less-than":20
+                }
+            }
+        ]
+    },
+
+    "highTaxProducts":
+    {
+        "$path":"products",
+        "$structure":
+        [
+            {
+                "$value":"."
+            }
+        ],
+        "$exclude":
+        [
+            {
+                "$com.pros.jsontransform.plugin.filter.ArrayFilterTaxPercentRange":
+                {
+                    "$less-than":20
+                }
+            }
+        ]
+    },
+
+    "midTaxProducts":
+    {
+        "$path":"products",
+        "$structure":
+        [
+            {
+                "$value":"."
+            }
+        ],
+        "$include":
+        [
+            {
+                "$com.pros.jsontransform.plugin.filter.ArrayFilterTaxPercentRange":
+                {
+                    "$greater-than":18, "$less-than":20
+                }
+            }
+        ]
+    }
+}
