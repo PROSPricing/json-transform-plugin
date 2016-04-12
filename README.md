@@ -3,25 +3,25 @@
 This project contains few examples of json-transform plugins. json-transform can be extended by writing Java plugins for the following transform directives:
 
 - **$constraints** ([code]
-  (https://stash.pros.com/users/lsuardi/repos/json-transform-plugin/browse/src/main/java/com/pros/jsontransform/plugin/constraint)
+  (https://github.com/PROSPricing/json-transform-plugin/tree/master/src/main/java/com/pros/jsontransform/plugin/constraint)
   [examples]
-  (https://stash.pros.com/users/lsuardi/repos/json-transform-plugin/browse/src/test/java/com/pros/jsontransform/plugin/constraint))
+  (https://github.com/PROSPricing/json-transform-plugin/tree/master/src/test/java/com/pros/jsontransform/plugin/constraint))
 - **$expression** ([code]
-  (https://stash.pros.com/users/lsuardi/repos/json-transform-plugin/browse/src/main/java/com/pros/jsontransform/plugin/expression)
+  (https://github.com/PROSPricing/json-transform-plugin/tree/master/src/main/java/com/pros/jsontransform/plugin/expression)
   [examples]
-  (https://stash.pros.com/users/lsuardi/repos/json-transform-plugin/browse/src/test/java/com/pros/jsontransform/plugin/expression))
+  (https://github.com/PROSPricing/json-transform-plugin/tree/master/src/test/java/com/pros/jsontransform/plugin/expression))
 - **$include / $exclude** ([code]
-  (https://stash.pros.com/users/lsuardi/repos/json-transform-plugin/browse/src/main/java/com/pros/jsontransform/plugin/filter)
+  (https://github.com/PROSPricing/json-transform-plugin/tree/master/src/main/java/com/pros/jsontransform/plugin/filter)
   [examples]
-  (https://stash.pros.com/users/lsuardi/repos/json-transform-plugin/browse/src/test/java/com/pros/jsontransform/plugin/filter))
+  (https://github.com/PROSPricing/json-transform-plugin/tree/master/src/test/java/com/pros/jsontransform/plugin/filter))
 - **$sort** ([code]
-  (https://stash.pros.com/users/lsuardi/repos/json-transform-plugin/browse/src/main/java/com/pros/jsontransform/plugin/sort)
+  (https://github.com/PROSPricing/json-transform-plugin/tree/master/src/main/java/com/pros/jsontransform/plugin/sort)
   [examples]
-  (https://stash.pros.com/users/lsuardi/repos/json-transform-plugin/browse/src/test/java/com/pros/jsontransform/plugin/sort))
+  (https://github.com/PROSPricing/json-transform-plugin/tree/master/src/test/java/com/pros/jsontransform/plugin/sort))
 
 ## How Plugins Work
 
-As an example, the [**FunctionAvgChildrenAge**] (https://stash.pros.com/users/lsuardi/repos/json-transform-plugin/browse/src/main/java/com/pros/jsontransform/plugin/expression/FunctionAvgChildrenAge.java) plugin to the **$expression** directive works on a *children* array object with *age* information and calculates the average children age.
+As an example, the [**FunctionAvgChildrenAge**] (https://github.com/PROSPricing/json-transform-plugin/blob/master/src/main/java/com/pros/jsontransform/plugin/expression/FunctionAvgChildrenAge.java) plugin to the **$expression** directive works on a *children* array object with *age* information and calculates the average children age.
 
 **The source JSON**
 
